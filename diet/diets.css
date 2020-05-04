@@ -1,0 +1,51 @@
+.body{
+	background-image:url();
+	width: 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.a{
+	background-image: url(f1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.b{
+  background-image: url(about.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+.c{
+  background-image: url(more.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+
+
+.d:hover{
+  border: 2px;
+  border-color:blue;
+  border-style: solid;
+}
+.e:hover{
+ border: 2px;
+  border-color:red;
+  border-style: solid;
+}
+.f:hover{
+	 border: 2px;
+  border-color:violet;
+  border-style: solid;
+}
+.g:hover{
+	 border: 2px;
+  border-color:cyan;
+  border-style: solid;
+}
+.h:hover{
+	 border: 2px;
+  border-color:orange;
+  border-style: solid;
+}

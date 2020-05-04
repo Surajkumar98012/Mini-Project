@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>bj</title>
+</head>
+<body>
+<p>click here to join</p>
+
+<button onclick="myFunction()">join</button>
+
+<p id="confirm"></p>
+
+<script>
+	
+	function myFunction(){
+		var txt;
+		var a = confirm("press ok to continue");
+        if( a==true )
+        {
+        	txt = "you press ok ";
+
+        }
+        	else
+        	{
+        		txt = "uo pressed Cancle";
+        	}
+        
+ document.getElementById('confirm').innerHTML = txt;
+
+	}
+
+</script>
+</body>
+</html
